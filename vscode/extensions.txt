@@ -1,0 +1,14 @@
+albymor.increment-selection
+arthurwang.vsc-prolog
+bierner.markdown-mermaid
+dakara.transformer
+eamodio.gitlens
+esbenp.prettier-vscode
+GitHub.vscode-pull-request-github
+mikestead.dotenv
+msjsdiag.debugger-for-chrome
+skyapps.fish-vscode
+streetsidesoftware.code-spell-checker
+wayou.vscode-todo-highlight
+wmaurer.change-case
+zhuangtongfa.Material-theme
