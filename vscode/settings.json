@@ -1,8 +1,6 @@
 {
   "workbench.colorTheme": "One Dark Pro",
   "workbench.startupEditor": "none",
-  "workbench.statusBar.feedback.visible": false,
-
   "editor.fontFamily": "Monaco, Inconsolata, Consolas, 'Courier New', Courier",
   "editor.lineHeight": 20,
   "editor.renderWhitespace": "boundary",
@@ -10,7 +8,6 @@
   "editor.wordWrap": "on",
   "editor.cursorBlinking": "blink",
   "editor.tabSize": 2,
-
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -19,95 +16,65 @@
   },
   "files.associations": {
     "*.test.ts.snap": "javascript",
-    "*.spec.ts.snap": "javascript"
+    "*.spec.ts.snap": "javascript",
+    "*.tpl": "php"
   },
-
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.confirmOnExit": true,
-
   "telemetry.enableTelemetry": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "debug.allowBreakpointsEverywhere": true,
-
   "window.titleBarStyle": "custom",
   "breadcrumbs.enabled": true,
   "window.zoomLevel": 0,
-  "cSpell.enabledLanguageIds": [
-    "asciidoc",
-    "c",
-    "cpp",
-    "csharp",
-    "css",
-    "go",
-    "handlebars",
-    "html",
-    "jade",
-    "javascript",
-    "javascriptreact",
-    "json",
-    "latex",
-    "less",
-    "markdown",
-    "php",
-    "plaintext",
-    "python",
-    "pub",
-    "restructuredtext",
-    "rust",
-    "scss",
-    "text",
-    "typescript",
-    "typescriptreact",
-    "yml",
-    "xml"
-  ],
-  "cSpell.userWords": [
-    "Parsimmon",
-    "Rainbird's",
-    "acyclic",
-    "askable",
-    "behaviour",
-    "concinst",
-    "conditionless",
-    "datasource",
-    "datasources",
-    "execa",
-    "generalise",
-    "initialise",
-    "promisify",
-    "qell",
-    "rainbird",
-    "rblang",
-    "relinst",
-    "transpiled",
-    "visualise",
-    "visualised",
-    "visualises",
-    "xmlns"
-  ],
   "git.autofetch": true,
   "workbench.statusBar.visible": true,
   "git.confirmSync": false,
-  "prolog.executablePath": "/usr/local/bin/swipl",
   "editor.cursorSmoothCaretAnimation": true,
   "terminal.integrated.rendererType": "canvas",
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "terminal.integrated.shell.linux": "fish",
   "workbench.activityBar.visible": true,
-  "workbench.fontAliasing": "auto",
   "markdown.preview.scrollEditorWithPreview": false,
   "editor.minimap.enabled": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
-  "prettier.endOfLine": "lf",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[typescript]": {
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "prettier.requireConfig": true,
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "diffEditor.renderSideBySide": true,
+  "editor.cursorSurroundingLines": 5,
+  "scm.defaultViewMode": "tree",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sqltools.connections": [
+    {
+      "database": "lisaange_newwebsite",
+      "dialect": "MySQL",
+      "name": "Tomdev",
+      "password": "we-pE3WFx",
+      "port": 3306,
+      "server": "localhost",
+      "username": "tomdb"
+    }
+  ],
+  "crystal-lang.completion": true,
+  "crystal-lang.hover": true,
+  "crystal-lang.implementations": true,
+  "importCost.bundleSizeDecoration": "gzipped",
+  "importCost.mediumPackageColor": "#788ca1",
+  "importCost.smallPackageColor": "#6a737d"
 }
