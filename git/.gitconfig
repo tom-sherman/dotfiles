@@ -1,3 +1,7 @@
+diff.tool=default-difftool
+difftool.default-difftool.cmd=code --wait --diff $LOCAL $REMOTE
+hub.protocol=ssh
+
 [user]
 	name = Tom Sherman
 	email = the.tomsherman@gmail.com
@@ -6,3 +10,7 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
+[core]
+	excludesfile=/home/tom/.config/.gitignore_global
+	editor=code --wait
