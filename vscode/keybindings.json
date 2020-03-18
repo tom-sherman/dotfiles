@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "shift+alt+down",
@@ -59,5 +58,17 @@
   {
     "key": "ctrl+alt+b",
     "command": "git.checkout"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.tasks.runTask"
+  },
+  {
+    "key": "shift+alt+t",
+    "command": "workbench.action.tasks.reRunTask"
+  },
+  {
+    "key": "alt+t",
+    "command": "workbench.action.tasks.test"
   }
 ]
