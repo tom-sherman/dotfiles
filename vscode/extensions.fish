@@ -1,9 +1,14 @@
+code --install-extension akamud.vscode-theme-onelight
 code --install-extension albymor.increment-selection
 code --install-extension bierner.comment-tagged-templates
 code --install-extension bungcip.better-toml
 code --install-extension dakara.transformer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
+code --install-extension EditorConfig.EditorConfig
+code --install-extension Equinusocio.vsc-community-material-theme
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension equinusocio.vsc-material-theme-icons
 code --install-extension esbenp.prettier-vscode
 code --install-extension HookyQR.beautify
 code --install-extension johnpapa.vscode-peacock

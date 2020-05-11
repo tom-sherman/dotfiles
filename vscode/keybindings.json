@@ -70,5 +70,14 @@
   {
     "key": "alt+t",
     "command": "workbench.action.tasks.test"
+  },
+  {
+    "key": "alt+p",
+    "command": "-keybindings.editor.toggleSortByPrecedence",
+    "when": "inKeybindings"
+  },
+  {
+    "key": "alt+p",
+    "command": "git.push"
   }
 ]
