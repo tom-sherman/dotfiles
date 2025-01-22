@@ -5,6 +5,7 @@ hub.protocol=ssh
 [user]
 	name = Tom Sherman
 	email = the.tomsherman@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINwoiSqgcnFqY+9q8wJTFYEjyoeHgcSUBQk25E8tCmQv
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -14,3 +15,21 @@ hub.protocol=ssh
 [core]
 	excludesfile=/home/tom/.config/.gitignore_global
 	editor=code --wait
+
+[init]
+	defaultBranch = main
+
+[push]
+	autoSetupRemote = true
+
+[includeIf "hasconfig:remote.*.url:git@github.com:ovotech/**"]
+	path = .gitconfig-work
+[includeIf "hasconfig:remote.*.url:https://github.com/ovotech/**"]
+	path = .gitconfig-work
+
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
